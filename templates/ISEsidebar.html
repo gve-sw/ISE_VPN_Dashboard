@@ -1,0 +1,58 @@
+<!-- common sidebar for all SP admin portals -->
+
+{% block above %}
+{% endblock %}
+<div class="sidebar">
+    <div class="sidebar__header">
+        <div class="sidebar__header-title">ISE Options</div>
+    </div>
+    <ul class="sidebar__drawer">
+        <li class="sidebar__item">
+          <a href="/">
+
+                <span class="icon-devices"></span>
+                <span class="qtr-margin-left">Dashboard</span>
+              </a>
+        </li>
+        <li class="sidebar__item">
+            <a href="newUser">
+                <span class="qtr-margin-left">Create New Users</span>
+            </a>
+        </li>
+        <li class="sidebar__item">
+            <a href="viewUsers">
+                <span class="qtr-margin-left">View Users</span>
+            </a>
+        </li>
+    </ul>
+
+    <ul>
+        <li class="sidebar__item">
+            <a>
+                <span class="icon-contact"></span>
+                <span class="qtr-margin-left">Logged in as Mr. ISE</span>
+            </a>
+        </li>
+        <li class="sidebar__item">
+            <a>
+                <span class="icon-cog"></span>
+                <span class="qtr-margin-left">Settings</span>
+            </a>
+        </li>
+        <li class="sidebar__item">
+            <a>
+                <span class="icon-feedback"></span>
+                <span class="qtr-margin-left">Feedback</span>
+            </a>
+        </li>
+        <li class="sidebar__item">
+            <a>
+                <span class="icon-help"></span>
+                <span class="qtr-margin-left">Help</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+{% block below %}
+{% endblock %}
